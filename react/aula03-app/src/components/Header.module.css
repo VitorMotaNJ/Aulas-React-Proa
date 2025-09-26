@@ -1,0 +1,22 @@
+
+header{
+    width: 800px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.azul{
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+}
+
+.vermelho{
+    width: 75%;
+    height: 100%;
+    background-color: red;
+    font-weight: bold;
+
+}
