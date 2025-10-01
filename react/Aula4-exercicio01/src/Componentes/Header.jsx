@@ -1,10 +1,23 @@
 
-import styles from './css/Header.module.css'
+import Styles from './css/Header.module.css'
+import Viagens from '../assets/img/viagens.jpg'
+import Lupa from '../assets/img/lupa.png'
 
 function Header(){
     return(
         <header>
-            Header
+            <img src={Viagens} alt="Logo da empresa" className={Styles.img_viagens}/>
+            <nav className={Styles.menu_header}>
+                <a href="">Home</a>
+                <a href="">Grand Canyon</a>
+                <a href="">Katmandu</a>
+                <a href="">Muralhas da China</a>
+                <a href="">Aruba</a>
+            </nav>
+            <div className={Styles.busca}>
+                <input type="search" />
+            </div>
+            <img src={Lupa} alt="Lupinha" className={Styles.lupa}/>
         </header>
     )
 }
