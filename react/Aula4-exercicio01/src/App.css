@@ -8,8 +8,8 @@ main{
   position: relative;
   width: 95%;
   height: 750px;
-
+  color: #024;
   margin: auto;
-  
+  font-family: Arial, Helvetica, sans-serif;
 }
 
