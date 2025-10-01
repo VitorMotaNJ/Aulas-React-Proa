@@ -1,5 +1,5 @@
 
-import styles from './css/Footer.module.css'
+import Styles from './css/Footer.module.css'
 
 function Footer(){
     return(
