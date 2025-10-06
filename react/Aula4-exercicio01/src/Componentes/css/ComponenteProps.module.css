@@ -1,0 +1,17 @@
+.corpo_texto{
+    position: relative;
+    width: 450px;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.712);
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    margin:auto;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.imagem_props{
+    width: 50px;
+}
