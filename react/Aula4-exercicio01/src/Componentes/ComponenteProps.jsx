@@ -6,7 +6,7 @@ function ComponenteProps({lugar, texto, bandeira}){
         <div className={Style.corpo_texto}>
             <h2>Venha conhecer esse lugar incrível {lugar}!!</h2>
             <p>{texto}</p>
-            <img className={Style.imagem_prop}src={bandeira} alt="Logo da firma" />
+            <img className={Style.imagem_props}src={bandeira} alt="Logo da firma" />
         </div>
     )
 }

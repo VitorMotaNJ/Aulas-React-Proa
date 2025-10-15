@@ -1,24 +1,33 @@
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Header from './Componentes/Header'
-import Footer from './Componentes/Footer'
 import Home from './Componentes/Home'
+import Footer from './Componentes/Footer'
 import Escocia from './Componentes/Escocia'
+import GrandCanyon from './Componentes/Grand_canyon'
+import MuralhaChina from './Componentes/Muralha_da_china'
 import Aruba from './Componentes/Aruba'
-import Muralha_da_china from './Componentes/Muralha_da_china'
-import Grand_canyon from './Componentes/Grand_canyon'
+
 
 function App() {
+
+
   return (
     <>
       <main>
-        <Header />
-        <Home />
-        <Aruba/>
-        <Muralha_da_china/>
-        <Grand_canyon/>
-        <Escocia />
-        <Footer />
+        <Router>
+          <Header />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/Escocia' element={<Escocia />} />
+            <Route path='/GrandCanyon' element={<GrandCanyon />} />
+            <Route path='/MuralhaChina' element={<MuralhaChina />} />
+            <Route path='/Aruba' element={<Aruba />} />
+          </Routes>
+          <Footer />
+        </Router>
+
+
       </main>
     </>
   )
