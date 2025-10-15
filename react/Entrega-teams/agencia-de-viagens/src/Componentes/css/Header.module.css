@@ -1,0 +1,43 @@
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_viagens{
+    width: 50px;
+    height: 50px;
+}
+
+.menu_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    height: auto;
+
+}
+
+.menu_header a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+}
+
+.menu_header a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.lupa{
+    width: 30px;
+    scale: 1/1;
+
+}
+
