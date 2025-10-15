@@ -4,7 +4,6 @@ import Face from '../assets/img/face.jfif'
 import Tiktok from '../assets/img/tiktok.png'
 import Whats from '../assets/img/whtas.png'
 
-
 function Footer(){
 
 return(
@@ -18,7 +17,7 @@ return(
         <img src={Whats} alt="Logo Whatsapp"  />
     </div> 
     <p>
-        Telefone de contato +55 (11) 4702-8922
+        Telefone de contato +55 (11) 5362-7543
     </p> 
 
 </footer>
