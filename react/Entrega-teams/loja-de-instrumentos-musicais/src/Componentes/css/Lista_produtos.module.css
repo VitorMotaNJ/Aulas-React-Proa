@@ -1,0 +1,28 @@
+.listaProdutos{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #f2fcfd;
+  padding: 20px;
+}
+
+.produto{
+  background-color: #f9fbfa;
+  height: 280px;
+}
+
+.imgProduto{
+  width: 45%;
+  margin: auto;
+  aspect-ratio: 1/1;
+  background-image: url('../../assets/img/violao.jpg');
+  background-size: cover;
+}
+
+.precoProduto{
+  color: #dd1f2b;
+}

@@ -1,0 +1,35 @@
+.apresentacaoLoja{
+    background-color: #ba1211;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 350px;
+    margin-top: 10px;
+}
+
+.nossaLoja{
+    padding: 25px 30px;
+    font-size: 15px;
+}
+
+.nossaLoja h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.nossaLoja{
+    background-color: #ba8a8a;
+    width: 45%;
+    height: 280px;
+}
+
+.apresentacaoLoja .imagem{
+  background-image: url(../../assets/img/loja.jpg);
+  width: 45%;
+  height: 280px;
+  background-size:cover;
+  alt: "Loja de instrumentos musicais";
+}
+

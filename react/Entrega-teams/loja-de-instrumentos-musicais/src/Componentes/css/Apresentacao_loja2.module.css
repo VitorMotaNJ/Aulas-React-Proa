@@ -1,0 +1,35 @@
+.apresentacaoLoja2{
+    background-color: #ba5511;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 350px;
+    margin-top: 10px;
+
+}
+
+.apresentacaoLoja2 iframe{
+    width: 40%;
+
+    height: 280px;
+    border:0;
+    border-radius: 10px;
+}
+
+.nossaLoja{
+    padding: 25px 30px;
+    font-size: 15px;
+}
+
+.nossaLoja h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.nossaLoja, .apresentacaoLoja img{
+    background-color: #ba8a8a;
+    width: 45%;
+    height: 280px;
+}

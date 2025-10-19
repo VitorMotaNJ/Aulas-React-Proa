@@ -1,0 +1,87 @@
+.formularioRedes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    background-color: #fff;
+    width: 98%;
+}
+
+.formularioRedes form{
+    width: 50%;
+    padding: 20px 40px 10px 40px;
+}
+
+.formularioRedes form input{
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+}
+
+.formularioRedes form textarea{
+    width: 60%;
+    height: 150px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.botaoEnviar{
+    cursor: pointer;
+}
+
+.redesSociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: #04018e;
+}
+
+.redesSociais h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.redesSociais nav{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redesSociais nav a{
+    width: 32%;
+}
+
+.redesSociais nav a div{
+    width: 100%;
+}
+
+.whatsapp {
+
+  height: 100px; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.instagram {
+
+  height: 100px; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.facebook {
+
+  height: 100px; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
